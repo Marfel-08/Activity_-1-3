@@ -1,0 +1,109 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    text-align: center;
+    background-color: black;
+    color: rgb(141, 58, 58);
+    padding: 40px;
+}
+
+header .container a{
+    text-decoration: none;
+    color: rgb(79, 141, 196);
+    padding: 15px;
+}
+
+header .container a:hover{
+    background-color: white;
+}
+
+nav{
+    float: left;
+    background-color: rgb(46, 46, 61);
+    height: 1000px;
+    padding-right: 10%;
+}
+
+article{
+    float: right;
+    width: 64%;
+    background-color: rgb(49, 45, 39);
+    height: 1000px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+.navigation_menu li{
+    list-style: none;
+    padding: 15px;
+}
+
+.navigation_menu li{
+    text-decoration: none;
+    color: white;
+}
+.navigation_menu li:hover{
+background-color: white;
+color: black;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(38, 41, 2);
+    padding: 15px;
+    width: 98%;
+    float: right;
+
+}
+
+footer h2{
+    color: white;
+}
+
+.footer menu a{
+color: white;
+text-decoration: none;
+padding: 155px;
+}
+/* THIS CSS IS FOR TABLE*/
+table{
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table_data{
+    background-color: aquamarine;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    width: 60%;
+}
+
+.html_table{
+    background-color: aquamarine;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    width: 50%;
+}
+th{
+    background-color: aqua;
+}
+
+.html_nested{
+    background-color: aquamarine;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    width: 50%;
+}
+tr:nth-child(even){
+    background-color: antiquewhite;
+}
+
+/* THIS IS THE STYLE FOR THE LIST */
+.FirstColumn{
+    float: left;
+}
+.SecondColumn{
+    float: right;
+}
